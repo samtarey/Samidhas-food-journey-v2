@@ -1,0 +1,222 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/*border: 1px red solid !important;*/
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+/*#courseName, .recipeCol1, .recipeCol2, .recipeCol3 {
+	display:inline-block;
+}
+*/
+
+#recipeRow h5 {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+hr {
+	border-top: 1px #E0E0E0 solid !important;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+html, body {
+	background-image: url("file://C:/Users/tareys01/Desktop/Portfolio/Samidha's Food Journey/version 2/images/paisley.png");
+}
+
+.container {
+	background-color: #FFFFFF;
+}
+
+.row {
+	display: flex;
+}
+
+.col-background {
+	/*background-color: #FFFFFF;*/
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.row-background {
+	/*background-color: #FFFFFF;*/
+}
+
+.header-border {
+	/*border: 2px #E0E0E0	solid !important ;*/
+	/*border-radius: 10px;*/
+	/*background-color: #9C786C;*/
+}
+
+.carousel-margin-padding {
+	margin-right: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.int-margin-padding {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main-content-margin-padding {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.archive-margin-padding {
+	padding-left:10px;
+	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+h4 {
+	font-weight: bold;
+	font-family: 'Karla', sans-serif;
+}
+
+.archive {
+	list-style-type: none;
+}
+
+.archive a {
+	color: #000000;
+}
+
+.box {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.custom-margin {
+	margin: 20px -15px 20px;
+}
+
+.top-menu {
+	/*background-color: #DADADA;*/
+}
+
+.my-nav-thumbnails {
+	margin-top: 30px;
+}
+
+.top-nav-menu {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+ul.top-nav-menu a {
+	color: #000000;
+	font-size: 13px;
+	/*font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Voltaire', sans-serif;*/
+}
+
+ul.top-nav-menu a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav-menu-list {
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.site-title {
+	font-size: 55px;
+	font-weight: bold;
+	color: #F3AC07;
+	font-family: 'Allura', cursive;
+}
+
+.interesting {
+	list-style-type: none;
+}
+
+ul.interesting a {
+	color: #747474;
+}
+
+ul.interesting a:hover, ul.top-nav-menu a:hover, ul.archive a:hover {
+	text-decoration: none;
+	color: #F3AC07;
+}
+
+.about-box {
+	margin-left: 10px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+.about-box p {
+	font-size: 13px;
+}
+
+div.about-box a {
+	color: #000000;
+}
+
+div.about-box a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+article p {
+	font-size: 15px;
+	color: #000000; /*#747474;*/
+}
+
+.orange {
+	background-color: #F3AC07;
+	height: 2px;
+}
+
+.more {
+	position: absolute;
+	left: 70%;
+}
+
+/*.vertical-line {
+	border-left: 1px #E0E0E0 solid !important;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}*/
+
+@media screen and (max-width: 1000px) {
+	.row, .colCategory {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex: 1 1 auto;
+	}
+
+
+}
+
+@media screen and (max-width: 750px) {
+	/*wrap the top nav menu under hamburger menu*/
+}

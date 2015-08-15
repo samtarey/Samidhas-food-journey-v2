@@ -1,0 +1,103 @@
+*{
+	/*border: 1px solid red !important;*/
+	font-family: 'Lato', sans-serif;
+	
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+@media only screen and (max-width: 700px){				/*this is to not show the hyperlink after the browser window is resized lesser than any of the hyperlink length. If this is not done then the hyperlinks gets mixed up in one another.*/
+
+	a{
+
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 450px){				/* .baseText - this is to minimize the font size gradually so that base text does not get mixed up after the browser window is resized*/
+
+	.baseText{
+
+		font-size:15px;
+	}
+}
+@media only screen and (max-width: 500px){
+
+	.baseText{
+
+		font-size:17px;
+	}
+}
+@media only screen and (max-width: 550px){
+
+	.baseText{
+
+		font-size:21px;
+	}
+}
+
+.row{
+	max-width: 985px;
+	width:100%;
+	display: flex;
+	flex-wrap:wrap;
+	margin: 0 auto;
+}
+
+#one{
+display:inilne-block;
+margin-right:auto;
+}
+
+#two.two{
+display:inilne-block;
+margin-left: auto;
+margin-right:auto;
+}
+
+#three{
+display:inilne-block;
+margin-left:auto;
+}
+
+.col-1{
+	width=8.33%;
+}
+.col-2{
+	width:16.66%;
+}
+.col-3{
+	width:25%;
+}
+.col-4{
+	width:33.33%;
+}
+.col-5{
+	width:41.66%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.33%;
+}
+.col-8{
+	width:66.66%;
+}
+.col-9{
+	width:75%;
+}
+.col-10{
+	width:83.33%;
+}
+.col-11{
+	width:91.66%;
+}
+.col-12{
+	width:100%;
+}
